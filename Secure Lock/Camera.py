@@ -3,8 +3,8 @@ import time
 from picamera2 import Picamera2
 from botocore.exceptions import ClientError
 
-AWS_ACCESS_KEY = 'AKIAZ5OCCZAZF7X62QYT'
-AWS_SECRET_KEY = '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'
+AWS_ACCESS_KEY = ''
+AWS_SECRET_KEY = ''
 AWS_REGION = 'ap-south-1'  # Change if necessary
 COLLECTION_ID = 'dlpbucketfaces'  # Name of your Rekognition collection
 SIMILARITY_THRESHOLD = 75   # Minimum similarity for a positive ID
